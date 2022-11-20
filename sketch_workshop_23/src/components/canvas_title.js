@@ -39,7 +39,7 @@ function CanvasTitle() {
     <div className="title">
       <canvas id="sketch-canvas" ref={canvasRef} />
       <h3>March 27, 2023</h3>
-      <h1>SKETCH Workshop</h1>
+      <h1>SketchRec Workshop</h1>
     </div>
   );
 }

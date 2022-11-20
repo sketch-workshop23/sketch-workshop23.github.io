@@ -14,7 +14,7 @@ function Header({ currentPage, pageHelper }) {
   return (
     <div className="header">
       <div>
-        <p>SKETCH'23</p>
+        <p>SketchRec'23</p>
       </div>
       <ul>{content}</ul>
     </div>
