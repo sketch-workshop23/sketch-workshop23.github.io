@@ -45,7 +45,11 @@ body {
 }
 
 .header p {
- padding: 0 0 0 1.4em; 
+  padding: 0 0 0 1.4em;
+}
+
+#current-page {
+  border-bottom: 4px solid #525252
 }
 
 a {
@@ -127,41 +131,50 @@ a:active {
 .title {
   margin-bottom: 0;
   height: 25vh;
-  min-height: 100px;
   background-image: url("../img/background.png");
   background-color: #fcfcfc;
-  display: flex;
+  display: grid;
+  grid-template-areas: "inner-div";
+  align-content: flex-end;
 }
 
 .title h1 {
-  align-self: flex-end;
   font-weight: 200;
   font-size: 84px;
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  margin:auto;
-  padding-bottom: 20px;
+  margin: auto;
+  grid-area: inner-div;
 }
 
 .title h3 {
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  align-self: flex-end;
   display: flex;
-  bottom: 77%;
   font-weight: 200;
+  grid-area: inner-div;
+  width: 100vw;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 120px;
 }
+
 #sketch-canvas {
   width: 100vw;
+  grid-area: inner-div;
+  position: fixed;
+  height: 25vh;
 }
 .description {
   margin: 3vh 5vw;
-  
 }
 
 .description p {
+  font-family: "Montserrat";
+  font-weight: normal;
+  line-height: 1.55;
+  font-size: 13pt;
+  color: rgba(33, 33, 33, 1);
+}
+
+.description ul li {
   font-family: "Montserrat";
   font-weight: normal;
   line-height: 1.55;
@@ -181,4 +194,35 @@ a:active {
 .date-label {
   font-weight: 300;
   font-family: "Montserrat";
+}
+
+.organizer-container {
+  display: flex;
+  padding-bottom: 5vh;
+  align-items: center;
+}
+
+.organizer-container img {
+  height: 200px;
+}
+
+.organizer-text {
+  padding-left: 2vw;
+}
+
+.organizer-image-container {
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.organizer-text h2 {
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.organizer-text h3 {
+  font-weight: 300;
+  margin-top:0.3em;
+  font-style: italic;
 }
