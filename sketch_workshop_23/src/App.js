@@ -72,7 +72,7 @@ function App() {
 
   return (
     <div>
-      <title>Sketch Workshop 2023</title>
+      <title>SketchRec Workshop 2023</title>
       <link rel="stylesheet" type="text/css" href="css/style.css" />
       <link
         href="https://fonts.googleapis.com/css?family=Raleway:200,300,600,900&display=swap"

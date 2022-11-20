@@ -4,6 +4,7 @@ function Header({ currentPage, pageHelper }) {
     <li>
       <a
         id={currentPage === opt ? "current-page" : ""}
+        style={currentPage === opt ? { pointerEvents: "none" } : null}
         onClick={() => pageHelper(opt)}
       >
         {opt}
