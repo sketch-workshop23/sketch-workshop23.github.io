@@ -14,7 +14,7 @@ function Organizers() {
             <h2>Rachel Blagojevic</h2>
             <h3>Massey University</h3>
             <p>
-              Rachel Blagojevic is a Senior Lecturer in Computer Science and
+              <a href="https://www.massey.ac.nz/massey/expertise/profile.cfm?stref=380350">Rachel Blagojevic</a> is a Senior Lecturer in Computer Science and
               Information Technology at Massey University. She received her
               Ph.D. in Computer Science at the University of Auckland. Her
               research interests are in human computer interaction. In
@@ -36,7 +36,7 @@ function Organizers() {
             <h2>Tracy Hammond</h2>
             <h3>Texas A&M University</h3>
             <p>
-              Tracy Hammond is a Professor in Computer Science & Engineering,
+              <a href="https://engineering.tamu.edu/cse/profiles/tahammond.html">Tracy Hammond</a> is a Professor in Computer Science & Engineering,
               Director of the Sketch Recognition Lab, and Director of the
               Institute for Engineering Education Innovation at Texas A&M
               University. She received her Ph.D. in Computer Science at the
@@ -58,7 +58,7 @@ function Organizers() {
             <h2>Paul Taele</h2>
             <h3>Texas A&M University</h3>
             <p>
-              Paul Taele is an Instructional Assistant Professor at Texas A&M
+              <a href="https://engineering.tamu.edu/cse/profiles/taele-paul.html">Paul Taele</a> is an Instructional Assistant Professor at Texas A&M
               University and the Deputy Director of the Sketch Recognition Lab
               at Texas A&M University. He received his Ph.D. in Computer Science
               at Texas A&M University. His research interests is in sketch-based

@@ -84,7 +84,7 @@ a:hover {
 a:hover::after {
   height: 2px;
   bottom: 1px;
-  background: rgba(255, 13, 5, 1);
+  background: #ffd56e;
   -webkit-transform: rotate(-1deg);
   -moz-transform: rotate(-1deg);
   transform: rotate(-1deg);
