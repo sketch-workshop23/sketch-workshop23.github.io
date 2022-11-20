@@ -1,0 +1,167 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.85);
+  margin: 0px;
+  display: flex;
+  box-sizing: border-box;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+}
+
+.links line {
+  stroke: #666;
+}
+
+.header {
+  display: flex;
+  min-height: 40px;
+  height: 5vh;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #ffd56e;
+  width: 100vw;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header ul {
+  display: flex;
+  flex-flow: row wrap;
+  list-style-type: none;
+  padding-inline-start: 0px;
+  display: inline-flex;
+  list-style: none;
+}
+
+.header ul li {
+  padding: 0 1.4em 0 0;
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  position: relative;
+  color: rgba(0, 0, 0, 0.85);
+  bottom: 0px;
+  -webkit-transition: 0.1s linear bottom;
+  -moz-transition: 0.1s linear bottom;
+  transition: 0.1s linear bottom;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 1px;
+  width: 100%;
+  height: 1px;
+  background: #717171;
+  -webkit-transform-origin: left center;
+  -webkit-transition: 0.075s linear all;
+  -moz-transition: 0.075s linear all;
+  transition: 0.075s linear all;
+}
+
+a:hover {
+  cursor: pointer;
+  bottom: 1px;
+}
+
+a:hover::after {
+  height: 2px;
+  bottom: 1px;
+  background: rgba(255, 13, 5, 1);
+  -webkit-transform: rotate(-1deg);
+  -moz-transform: rotate(-1deg);
+  transform: rotate(-1deg);
+}
+
+a:nth-of-type(2):hover::after {
+  background: rgba(255, 228, 50, 1);
+}
+a:active {
+  top: 1px;
+}
+
+.header a {
+  color: #525252;
+}
+
+.header a::after {
+  content: unset;
+}
+
+.content-body {
+  overflow-y: auto;
+  height: 95vh;
+}
+
+#columns {
+  display: flex;
+}
+
+.subtitle {
+  margin: 3vh 5vw;
+  margin-bottom: 0;
+}
+
+.subtitle h2 {
+  font-weight: 600;
+}
+
+.subtitle h3 {
+  font-weight: 600;
+}
+.title {
+  margin-bottom: 0;
+  height: 25vh;
+  min-height: 100px;
+  background-image: url("../img/background.png");
+  background-color: #fcfcfc;
+  display: flex;
+}
+
+.title h1 {
+  padding-left: 5vw;
+  align-self: flex-end;
+  font-weight: 400;
+  font-size: xxx-large;
+  position: fixed;
+}
+
+#sketch-canvas {
+  width: 100vw;
+}
+.description {
+  margin: 3vh 5vw;
+  border-top: 1px solid #525252;
+}
+
+.description p {
+  font-family: "Montserrat";
+  font-weight: normal;
+  line-height: 1.55;
+  font-size: 13pt;
+  color: rgba(33, 33, 33, 1);
+}
+
+#left-column {
+  width: 70vw;
+}
+
+.important-dates {
+  margin-top: 3vh;
+  font-weight: 600;
+}
+
+.date-label {
+  font-weight: 300;
+  font-family: "Montserrat";
+}
