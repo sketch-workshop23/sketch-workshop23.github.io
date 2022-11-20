@@ -6,11 +6,11 @@ function ImportantDates() {
     },
     {
       name: "Acceptance Notification",
-      deadline: new Date("2023-01-01T23:59:59-12:00"),
+      deadline: new Date("2023-01-02T00:00:00-12:00"),
     },
     {
       name: "Camera-Ready Version",
-      deadline: new Date("2023-01-01T23:59:59-12:00"),
+      deadline: new Date("2023-01-02T00:00:00-12:00"),
     },
     { name: "Workshop", deadline: new Date("2023-03-27T23:59:59-12:00") },
   ];
@@ -26,10 +26,7 @@ function ImportantDates() {
   });
 
   const now = new Date();
-  console.log(formatter.format(now));
-
   const content = deadlines.map((ele) => {
-    console.log(now - ele.deadline);
     return (
       <p id={ele.name}>
         <span className="date-label">{ele.name}:</span>{" "}
