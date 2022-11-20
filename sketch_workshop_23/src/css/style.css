@@ -49,7 +49,7 @@ body {
 }
 
 #current-page {
-  border-bottom: 4px solid #525252
+  border-bottom: 4px solid #525252;
 }
 
 a {
@@ -110,10 +110,11 @@ a:active {
   height: 95vh;
 }
 
-#columns {
+.columns {
   display: flex;
   border-top: 1px solid #525252;
   margin: 3vh 5vw;
+  padding-bottom: 5vh;
 }
 
 .subtitle {
@@ -161,6 +162,7 @@ a:active {
   grid-area: inner-div;
   position: fixed;
   height: 25vh;
+  cursor: crosshair;
 }
 .description {
   margin: 3vh 5vw;
@@ -182,8 +184,10 @@ a:active {
   color: rgba(33, 33, 33, 1);
 }
 
-#left-column {
-  width: 70vw;
+.right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .important-dates {
@@ -196,6 +200,9 @@ a:active {
   font-family: "Montserrat";
 }
 
+.organizers {
+  background-color: white;
+}
 .organizer-container {
   display: flex;
   padding-bottom: 5vh;
@@ -223,6 +230,12 @@ a:active {
 
 .organizer-text h3 {
   font-weight: 300;
-  margin-top:0.3em;
+  margin-top: 0.3em;
   font-style: italic;
+}
+
+#opera_house {
+  width: 20vw;
+  position: fixed;
+  bottom: 0;
 }
