@@ -8,7 +8,7 @@ function CanvasTitle() {
 
   fadingPencil.onMouseDown = (event) => {
     stroke.current = new paper.Path({
-      strokeColor: "#6e98ff",
+      strokeColor: "#A7DBFB",
       strokeWidth: 2,
     });
     stroke.current.add(event.point);
@@ -21,13 +21,13 @@ function CanvasTitle() {
   fadingPencil.onMouseUp = (event) => {
     let temp = stroke.current;
     let fadeEffect = setInterval(() => {
-        if (temp.opacity < 0.1) {
-          temp.remove();
-          clearInterval(fadeEffect);
-        } else {
-          temp.opacity -= 0.1;
-        }
-      }, 100);
+      if (temp.opacity < 0.1) {
+        temp.remove();
+        clearInterval(fadeEffect);
+      } else {
+        temp.opacity -= 0.1;
+      }
+    }, 100);
   };
 
   useEffect(() => {
