@@ -91,7 +91,7 @@ function App() {
           <div className="columns">
             <div
               className="left-column"
-              style={{ width: currentPage != "Organizers" ? "70vw" : "100%" }}
+              style={{ width: currentPage !== "Organizers" ? "70vw" : "100%" }}
             >
               {leftContent}
             </div>
