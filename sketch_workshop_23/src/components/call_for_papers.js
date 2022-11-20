@@ -45,14 +45,23 @@ function CallForPapers() {
         following the official templates:
       </p>
       <ul>
-        {/* <li>
-          LaTeX template, using the following command:
-          \documentclass[manuscript, review]{acmart};
-        </li> */}
-        <li>Overleaf template, using the same command mentioned above;</li>
-        <li>Word template.</li>
+        <li>
+          <a href="https://authors.acm.org/proceedings/production-information/taps-production-workflow">
+            LaTeX template
+          </a>
+          , using the following command:{" "}
+          <span className="latex-code">
+            \documentclass[manuscript, review]
+            {`{acmart}`};
+          </span>
+        </li>
+        <li>
+          <a href="https://authors.acm.org/proceedings/production-information/taps-production-workflow">
+            Word template.
+          </a>
+        </li>
       </ul>
-      <p>Submission site:</p>
+      <p>Submission site: TBD</p>
       <p>Papers will be reviewed in a single-blind process.</p>
     </div>
   );

@@ -25,8 +25,11 @@ function HomePage() {
       </p>
       <h1>Venue</h1>
       <p>
-        SKETCH'23 will be co-located with the 28th Annual Conference on
-        Intelligent user Interfaces (IUI'23) in Sydney, Australia.
+        SKETCH'23 will be co-located with the 28th Annual Conference on 
+        <a href="https://iui.acm.org/2023/">
+          {" "}Intelligent user Interfaces (IUI'23)
+        </a>{" "}
+        in Sydney, Australia.
       </p>
     </div>
   );

@@ -239,3 +239,9 @@ a:active {
   position: fixed;
   bottom: 0;
 }
+
+.latex-code {
+  background-color: rgba(0, 0, 0, 0.059);
+  font-family: "Source Code Pro";
+  font-weight: 500;
+}
