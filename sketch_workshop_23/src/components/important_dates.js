@@ -12,7 +12,7 @@ function ImportantDates() {
       name: "Camera-Ready Version",
       deadline: new Date("2023-01-02T00:00:00-12:00"),
     },
-    { name: "Workshop", deadline: new Date("2023-03-27T23:59:59-12:00") },
+    { name: "Workshop", deadline: new Date("2023-03-27T00:00:00+11:00") },
   ];
 
   const formatter = new Intl.DateTimeFormat("en-AU", {
@@ -21,7 +21,7 @@ function ImportantDates() {
     minute: "numeric",
     weekday: "long",
     day: "numeric",
-    month: "long",
+    month: "short",
     year: "numeric",
   });
 
