@@ -28,7 +28,7 @@ body {
   background-color: #ffd56e;
   width: 100vw;
   align-items: center;
-  justify-content: flex-end;
+  font-size: 1.5em;
 }
 
 .header ul {
@@ -42,7 +42,10 @@ body {
 
 .header ul li {
   padding: 0 1.4em 0 0;
-  font-size: 1.5em;
+}
+
+.header p {
+ padding: 0 0 0 1.4em; 
 }
 
 a {
@@ -105,6 +108,8 @@ a:active {
 
 #columns {
   display: flex;
+  border-top: 1px solid #525252;
+  margin: 3vh 5vw;
 }
 
 .subtitle {
@@ -129,19 +134,31 @@ a:active {
 }
 
 .title h1 {
-  padding-left: 5vw;
   align-self: flex-end;
-  font-weight: 400;
-  font-size: xxx-large;
+  font-weight: 200;
+  font-size: 84px;
   position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  margin:auto;
+  padding-bottom: 20px;
 }
 
+.title h3 {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  align-self: flex-end;
+  display: flex;
+  bottom: 77%;
+  font-weight: 200;
+}
 #sketch-canvas {
   width: 100vw;
 }
 .description {
   margin: 3vh 5vw;
-  border-top: 1px solid #525252;
+  
 }
 
 .description p {
