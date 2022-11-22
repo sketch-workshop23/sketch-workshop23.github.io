@@ -2,15 +2,15 @@ function ImportantDates() {
   const deadlines = [
     {
       name: "Paper Submission",
-      deadline: new Date("2023-01-02T00:00:00-12:00"),
+      deadline: new Date("2023-01-09T00:00:00-12:00"),
     },
     {
       name: "Acceptance Notification",
-      deadline: new Date("2023-01-02T00:00:00-12:00"),
+      deadline: new Date("2023-02-09T00:00:00-12:00"),
     },
     {
       name: "Camera-Ready Version",
-      deadline: new Date("2023-01-02T00:00:00-12:00"),
+      deadline: new Date("2023-02-16T00:00:00-12:00"),
     },
     { name: "Workshop", deadline: new Date("2023-03-27T00:00:00+11:00") },
   ];

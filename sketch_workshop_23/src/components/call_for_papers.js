@@ -37,8 +37,12 @@ function CallForPapers() {
       </ul>
       <h1>Paper Submission</h1>
       <p>
-        Paper submissions should be 4-10 pages following the guidelines of this
-        year's call for papers.
+        Paper submissions should be up to <span style={{fontWeight: 600}}>8 pages long (not including references)</span> following the guidelines
+        of this year's call for papers. Submissions must be original and
+        relevant to the workshop themes listed above. Relevant types of
+        submissions include but are not limited to position papers, surveys of
+        the topic area, and papers that describe work-in-progress research
+        projects. Papers will be reviewed in a single-blind process.
       </p>
       <p>
         Papers should be formatted in the new ACM single-column format,
@@ -61,8 +65,15 @@ function CallForPapers() {
           </a>
         </li>
       </ul>
+      
       <p>Submission site: TBD</p>
-      <p>Papers will be reviewed in a single-blind process.</p>
+      <p>
+        If you have any further questions please contact the workshop organizers
+        at{" "}
+        <a href="mailto:sketchworkshop2023@gmail.com">
+          sketchworkshop2023@gmail.com
+        </a>
+      </p>
     </div>
   );
 }
