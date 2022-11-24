@@ -17,17 +17,19 @@ function HomePage() {
       </p>
 
       <p>
-        The workshop aims to share and discuss state-of-the-art innovations and
-        challenges in IUI research topics that relate to sketch interactions and
-        recognition. We especially focus on highlighting research contributions
-        and engaging in healthy dialogue that intersect topics pertaining to
-        sketch recognition user interfaces and techniques.
+        The IUI 2023 Workshop on Sketch Recognition (SketchRec'23) aims to share
+        and discuss state-of-the-art innovations and challenges in IUI research
+        topics that relate to sketch interactions and recognition. We especially
+        focus on highlighting research contributions and engaging in healthy
+        dialogue that intersect topics pertaining to sketch recognition user
+        interfaces and techniques.
       </p>
       <h1>Venue</h1>
       <p>
-        SketchRec'23 will be co-located with the 28th Annual Conference on 
+        SketchRec'23 will be co-located with the 28th Annual Conference on
         <a href="https://iui.acm.org/2023/">
-          {" "}Intelligent user Interfaces (IUI'23)
+          {" "}
+          Intelligent user Interfaces (IUI'23)
         </a>{" "}
         in Sydney, Australia.
       </p>

@@ -15,7 +15,7 @@ function Header({ currentPage, pageHelper }) {
   return (
     <div className="header">
       <div>
-        <p>SketchRec'23</p>
+        <p>IUI 2023 Workshop on Sketch Recognition (SketchRec'23)</p>
       </div>
       <ul>{content}</ul>
     </div>
