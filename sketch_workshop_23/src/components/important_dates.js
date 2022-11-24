@@ -3,16 +3,23 @@ function ImportantDates() {
     {
       name: "Paper Submission",
       deadline: new Date("2023-01-09T00:00:00-12:00"),
+      display_date: "Monday, 9 Jan 2023 AOE",
     },
     {
       name: "Acceptance Notification",
       deadline: new Date("2023-02-09T00:00:00-12:00"),
+      display_date: "Thursday, 9 Feb 2023 AOE",
     },
     {
       name: "Camera-Ready Version",
       deadline: new Date("2023-02-16T00:00:00-12:00"),
+      display_date: "Thursday, 16 Feb 2023 AOE"
     },
-    { name: "Workshop", deadline: new Date("2023-03-27T00:00:00+11:00") },
+    {
+      name: "Workshop",
+      deadline: new Date("2023-03-27T00:00:00+11:00"),
+      display_date: "Monday, 27 Mar 2023 AOE",
+    },
   ];
 
   const formatter = new Intl.DateTimeFormat("en-AU", {
@@ -35,7 +42,7 @@ function ImportantDates() {
             textDecoration: now - ele.deadline > 0 ? "line-through" : "none",
           }}
         >
-          {formatter.format(ele.deadline)}
+          {ele.display_date}
         </span>
       </p>
     );
