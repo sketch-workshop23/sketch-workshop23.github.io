@@ -66,7 +66,7 @@ function CallForPapers() {
         </li>
       </ul>
       
-      <p>Submission site: TBD</p>
+      <p>Submission site: <a href="https://easychair.org/my/conference?conf=sketchrec23#">EasyChair</a></p>
       <p>
         If you have any further questions please contact the workshop organizers
         at{" "}
