@@ -160,7 +160,8 @@ a:active {
 #sketch-canvas {
   width: 100vw;
   grid-area: inner-div;
-  position: fixed;
+  position: flex;
+  z-index: 10;
   height: 25vh;
   cursor: crosshair;
 }
