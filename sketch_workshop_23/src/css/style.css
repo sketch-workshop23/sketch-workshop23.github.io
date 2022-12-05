@@ -246,3 +246,13 @@ a:active {
   font-family: "Source Code Pro";
   font-weight: 500;
 }
+
+.submit{
+  font-weight: 300;
+  margin-top: 3vh;
+  font-family: "Montserrat";
+}
+
+.submit a {
+  font-weight: 600;
+}

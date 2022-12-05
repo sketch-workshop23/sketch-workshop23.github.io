@@ -52,6 +52,7 @@ function ImportantDates() {
     <div className="important-dates">
       <h2>Important Dates</h2>
       {content}
+      <p className="submit">Submission site: <a href="https://easychair.org/my/conference?conf=sketchrec23#">EasyChair</a></p>
     </div>
   );
 }
