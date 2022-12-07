@@ -26,7 +26,7 @@ function HomePage() {
       </p>
       <h1>Venue</h1>
       <p>
-        SketchRec'23 will be co-located with the 28th Annual Conference on
+        SketchRec'23 will be <span className="hybrid">hybrid</span> and co-located with the 28th Annual Conference on
         <a href="https://iui.acm.org/2023/">
           {" "}
           Intelligent user Interfaces (IUI'23)
