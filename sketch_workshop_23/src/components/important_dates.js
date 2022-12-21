@@ -6,29 +6,19 @@ function ImportantDates() {
       display_date: "Monday, 9 Jan 2023 AOE",
     },
     {
-      name: "Paper Submission Deadline #1",
-      deadline: new Date("2023-01-09T00:00:00-12:00"),
-      display_date: "Monday, 9 Jan 2023 AOE",
-    },
-    {
-      name: "Notifcation for Submission Deadline #1",
-      deadline: new Date("2023-01-15T00:00:00-12:00"),
-      display_date: "Sunday, 15 Jan 2023 AOE",
-    },
-    {
-      name: "Paper Submission Deadline #2",
+      name: "Paper Submission Deadline",
       deadline: new Date("2023-01-23T00:00:00-12:00"),
       display_date: "Monday, 23 Jan 2023 AOE",
     },
     {
-      name: "Notification for Submission Deadline #2",
-      deadline: new Date("2023-02-29T00:00:00-12:00"),
-      display_date: "Sunday, 29 Feb 2023 AOE",
+      name: "Author Notification",
+      deadline: new Date("2023-01-29T00:00:00-12:00"),
+      display_date: "Sunday, 29 January 2023 AOE",
     },
     {
       name: "Camera-Ready Version",
-      deadline: new Date("2023-03-02T00:00:00-12:00"),
-      display_date: "Thursday, 2 Mar 2023 AOE"
+      deadline: new Date("2023-03-01T00:00:00-12:00"),
+      display_date: "Wednesday, 1 Mar 2023 AOE"
     },
     {
       name: "Workshop",
