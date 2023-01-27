@@ -1,19 +1,24 @@
 function ImportantDates() {
   const deadlines = [
     {
-      name: "Paper Submission",
+      name: "Intention to Submit",
       deadline: new Date("2023-01-09T00:00:00-12:00"),
       display_date: "Monday, 9 Jan 2023 AOE",
     },
     {
-      name: "Acceptance Notification",
-      deadline: new Date("2023-02-09T00:00:00-12:00"),
-      display_date: "Thursday, 9 Feb 2023 AOE",
+      name: "Paper Submission Deadline",
+      deadline: new Date("2023-01-23T00:00:00-12:00"),
+      display_date: "Monday, 23 Jan 2023 AOE",
+    },
+    {
+      name: "Author Notification",
+      deadline: new Date("2023-01-29T00:00:00-12:00"),
+      display_date: "Sunday, 29 January 2023 AOE",
     },
     {
       name: "Camera-Ready Version",
-      deadline: new Date("2023-02-16T00:00:00-12:00"),
-      display_date: "Thursday, 16 Feb 2023 AOE"
+      deadline: new Date("2023-03-01T00:00:00-12:00"),
+      display_date: "Wednesday, 1 Mar 2023 AOE"
     },
     {
       name: "Workshop",
