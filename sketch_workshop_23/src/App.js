@@ -6,11 +6,13 @@ import ImportantDates from "./components/important_dates";
 
 import HomePage from "./components/home_page";
 import CallForPapers from "./components/call_for_papers";
+import CameraReadyInstructions from "./components/camera_ready";
 import Program from "./components/program";
 import Organizers from "./components/organizers";
 import opera_house from "./img/opera_house.png";
 
 import "./css/style.css";
+
 
 function App() {
   const [currentPage, setCurrentPage] = useState("Home Page");
@@ -37,6 +39,19 @@ function App() {
       break;
     case "Call for papers":
       leftContent = <CallForPapers />;
+      rightContent = (
+        <div>
+          <ImportantDates />
+          <img
+            src={opera_house}
+            alt="Sydney Opera House Sketch"
+            id="opera_house"
+          />
+        </div>
+      );
+      break;
+    case "Camera Ready":
+      leftContent = <CameraReadyInstructions />;
       rightContent = (
         <div>
           <ImportantDates />

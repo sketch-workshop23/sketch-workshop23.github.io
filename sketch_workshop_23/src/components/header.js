@@ -1,5 +1,5 @@
 function Header({ currentPage, pageHelper }) {
-  const options = ["Home Page", "Call for papers", "Program", "Organizers"];
+  const options = ["Home Page", "Call for papers", "Camera Ready", "Program", "Organizers"];
   let content = options.map((opt) => (
     <li>
       <a
