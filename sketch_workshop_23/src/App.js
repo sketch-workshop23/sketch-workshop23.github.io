@@ -37,7 +37,7 @@ function App() {
         </div>
       );
       break;
-    case "Call for papers":
+    case "Call for Papers":
       leftContent = <CallForPapers />;
       rightContent = (
         <div>
