@@ -18,7 +18,7 @@ function ImportantDates() {
     {
       name: "Camera-Ready Version",
       deadline: new Date("2023-03-01T00:00:00-12:00"),
-      display_date: "Wednesday, 1 Mar 2023 AOE"
+      display_date: "Wednesday, 1 Mar 2023 AOE",
     },
     {
       name: "Workshop",
@@ -57,7 +57,19 @@ function ImportantDates() {
     <div className="important-dates">
       <h2>Important Dates</h2>
       {content}
-      <p className="submit">Submission site: <a href="https://easychair.org/my/conference?conf=sketchrec23#">EasyChair</a></p>
+      <br />
+      <p className="submit">
+        Submission site:{" "}
+        <a href="https://easychair.org/my/conference?conf=sketchrec23#">
+          EasyChair
+        </a>
+      </p>
+      <p className="submit">
+        Contact:{" "}
+        <a href="mailto:sketchworkshop2023@gmail.com">
+          sketchworkshop2023@gmail.com
+        </a>
+      </p>
     </div>
   );
 }

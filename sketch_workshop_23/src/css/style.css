@@ -259,7 +259,7 @@ a:active {
   font-weight: 500;
 }
 
-.submit{
+.submit {
   font-weight: 300;
   margin-top: 3vh;
   font-family: "Montserrat";
@@ -271,4 +271,37 @@ a:active {
 
 .hybrid {
   font-weight: 600;
+}
+
+table {
+  /* font-family: arial, sans-serif; */
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #ffd56f;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #ffebbb;
+}
+
+.programtitle {
+  font-weight: 600;
+}
+
+.authors {
+  /* color: #083D77; */
+  /* color: #7E6B8F; */
+  /* color: #483D51; */
+  /* color: #644c79; */
+  font-style: italic;
+}
+
+.infocol {
+  text-align: center;
 }
